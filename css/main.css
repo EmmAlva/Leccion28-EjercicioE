@@ -1,13 +1,35 @@
+section{
+	margin: 15px 0;
+}
+section:first-child{
+ 	border: 1px solid #ABA7A7;
+ 	width: 800px;
+ }
+ section:first-child div{
+	height: 200px;
+	width: 200px;
+}
+ section:nth-child(2){
+  	border: 1px solid #ABA7A7;
+  	width: 800px;
+  	overflow: auto;
+  }
+section:nth-child(2) div{
+	height: 200px;
+	width: 200px;
+	float: left;
+}
 section:nth-child(3){
 	border: 1px solid #ABA7A7;
 	width: 800px;
 	overflow: auto;
 }
-div{
+section:nth-child(3) div{
 	height: 200px;
 	width: 200px;
 	float: right;
 }
+
 .amarillo{
 	background: yellow;
 }
