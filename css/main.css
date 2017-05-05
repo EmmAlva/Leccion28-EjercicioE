@@ -1,10 +1,12 @@
-section:first-child{
+section:nth-child(2){
 	border: 1px solid #ABA7A7;
 	width: 800px;
+	overflow: auto;
 }
 div{
 	height: 200px;
 	width: 200px;
+	float: left;
 }
 .amarillo{
 	background: yellow;
