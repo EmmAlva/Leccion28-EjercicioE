@@ -1,3 +1,7 @@
+section:first-child{
+	border: 1px solid #ABA7A7;
+	width: 800px;
+}
 div{
 	height: 200px;
 	width: 200px;
