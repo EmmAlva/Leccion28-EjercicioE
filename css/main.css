@@ -1,4 +1,4 @@
-section:nth-child(2){
+section:nth-child(3){
 	border: 1px solid #ABA7A7;
 	width: 800px;
 	overflow: auto;
@@ -6,7 +6,7 @@ section:nth-child(2){
 div{
 	height: 200px;
 	width: 200px;
-	float: left;
+	float: right;
 }
 .amarillo{
 	background: yellow;
@@ -16,4 +16,5 @@ div{
 }
 .rojo{
 	background: red;
+
 }
